@@ -24,7 +24,7 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: Build Docker image
+      - name: Build Docker image.
         run: |
           docker build -t ouily36/application-correction:${{ steps.set_build_number.outputs.BUILD_NUMBER }} .
       
