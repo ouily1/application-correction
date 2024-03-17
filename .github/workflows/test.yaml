@@ -24,7 +24,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ouily36/application-correction
+          images: ouily36/application-correction:latest
 
       -
         name: Login to Docker Hub
