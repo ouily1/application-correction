@@ -27,4 +27,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-1          tags: username/application-correction:v0.0.2
+          tags: username/application-correction:v0.0.2
